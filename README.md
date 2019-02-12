@@ -17,9 +17,7 @@
 
 **e.** Quais evidências você possui de que seu modelo é suficientemente bom?
 
-*Devido ao teste de validação cruzada e mais de um algoritmo testado é possível avaliar o desempenho do modelo. Nessas análises, as métricas no período de teste foram importantes para vermos como o modelo consegiu realizar predições em amostras que não foram usadas no treinamento. Enfim, como resultado tivemos a Random Forest como modelo que obteve melhor desempenho tanto em acurácio quanto f1-score, no período de teste quanto na validação cruzada. Além disso, para obter melhores resultados é necessário um tratamento das variáveis explicativas com feature engineering, testar outros modelos e seleção/filtros/criação de novas variáveis, ajudaria em obter um desempenho melhor.* <br>
-
-**Podemos melhorar ainda mais os modelos realizando o tunning de parâmetros, por meio do grid search. A ideia é otimizar os parâmetros para uma métrica para obter os melhores parâmetros de cada algoritmo.**
+*Devido ao teste de validação cruzada e mais de um algoritmo testado é possível avaliar o desempenho do modelo. Nessas análises, as métricas no período de teste foram importantes para vermos como o modelo consegiu realizar predições em amostras que não foram usadas no treinamento. Enfim, como resultado tivemos a Random Forest como modelo que obteve melhor desempenho tanto em acurácio (83.25%) e o segundo melhor desempenho no f1-score (35.96%), no período de teste quanto na validação cruzada. Além disso, para obter melhores resultados é necessário um tratamento das variáveis explicativas com feature engineering, testar outros modelos e seleção/filtros/criação de novas variáveis, ajudaria em obter um desempenho melhor.* <br>
 
 ### Modelos Propostos
 
